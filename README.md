@@ -20,6 +20,13 @@ and functional dashboards.
 
 ## Development:
 
+npm install --msvs_version=2013
+gulp
+
+### Requirements:
+
+npm install -g gulp
+npm install -g browserify
 
 ### Commit Messages:
 
@@ -29,6 +36,7 @@ and functional dashboards.
 ## Credits:
 - Developed by Deepmind AS: http://www.deepmind.no/
 - Components: https://angularjs.org/, https://jquery.org/, http://nodejs.org/, http://expressjs.com/
+- gulp-starter: https://github.com/greypants/gulp-starter
 
 ## License (MIT):
 
