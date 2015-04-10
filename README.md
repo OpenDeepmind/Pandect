@@ -20,13 +20,19 @@ and functional dashboards.
 
 ## Development:
 
+```sh
 npm install --msvs_version=2013
+
 gulp
+```
 
 ### Requirements:
 
+```sh
 npm install -g gulp
+
 npm install -g browserify
+```
 
 ### Commit Messages:
 
