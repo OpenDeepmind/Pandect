@@ -18,6 +18,14 @@ and functional dashboards.
 - Use the framework to build custom solutions, such as Home Automation Dashboards.
 - Simple search to filter what you need to find.
 
+## Development:
+
+
+### Commit Messages:
+
+- Should quickly describe the purpose of the commit.
+- Should be written in a language of what the commit does if pulled into a repo, e.g. "Add README" and not "Adds README".
+
 ## Credits:
 - Developed by Deepmind AS: http://www.deepmind.no/
 - Components: https://angularjs.org/, https://jquery.org/, http://nodejs.org/, http://expressjs.com/
