@@ -12,9 +12,15 @@ var angular = require('angular');
 
 	var controllers = angular.module('pandect.controllers', []);
 
-		controllers.controller('ActionsController', ['$scope', '$rootScope',
+	controllers.controller('ActionsController', ['$scope', '$rootScope',
 		function ($scope, $rootScope) {
 
+			$scope.tags = ['production', 'ping'];
+
+			$scope.title = 'Actions';
+
+			$scope.tiles = [{'title': 'hello world', 'background': 'blue', 'span.row': '2', 'span.col': '2'}];
+			
 		}]);
 
 })();

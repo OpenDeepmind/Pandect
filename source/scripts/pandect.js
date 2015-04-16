@@ -11,6 +11,7 @@ var angular = require('angular');
 require('angular-material');
 require('angular-animate');
 require('angular-aria');
+require('angular-material-icons');
 
 require('./filters');
 require('./services');
@@ -22,6 +23,7 @@ require('./controllers');
 	// Create the app module and dependencies.
 	var pandect = angular.module('pandect', [
 		'ngMaterial',
+		'ngMdIcons',
         'pandect.filters',
         'pandect.services',
         'pandect.directives',
@@ -32,9 +34,17 @@ require('./controllers');
 	pandect.value('author', 'Sondre Bjellås');
 	pandect.value('HOST', 'http://localhost:3000');
 
-	pandect.run(['$rootScope', '$http', 'HOST',
+	pandect.run(['$rootScope', '$http', 'HOST', 
 		function ($rootScope, $http, HOST) {
 
 		}]);
+
+	pandect.config(['$mdThemingProvider',
+		function ($mdThemingProvider)
+		{
+			 $mdThemingProvider.theme('cyan').primaryPalette('cyan');
+			
+
+    }]);
 
 })();

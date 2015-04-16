@@ -41,6 +41,7 @@ npm install -g browserify
 - Developed by Deepmind AS: http://www.deepmind.no/
 - Components: https://angularjs.org/, https://jquery.org/, http://nodejs.org/, http://expressjs.com/
 - gulp-starter: https://github.com/greypants/gulp-starter
+- icon sets: https://github.com/nkoterba/material-design-iconsets
 
 ## License (MIT):
 
