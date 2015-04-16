@@ -6,6 +6,8 @@
 
 'use strict';
 
+var angular = require('angular');
+
 (function () {
 
 	var directives = angular.module('pandect.directives', []);

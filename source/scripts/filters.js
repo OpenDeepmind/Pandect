@@ -6,6 +6,8 @@
 
 'use strict';
 
+var angular = require('angular');
+
 (function () {
 
 	var filters = angular.module('pandect.filters', []);

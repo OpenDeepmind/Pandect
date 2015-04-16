@@ -6,8 +6,12 @@
 
 'use strict';
 
+var angular = require('angular');
+
 (function () {
 
 	var services = angular.module('pandect.services', []);
+	
+	
 	
 })();

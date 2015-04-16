@@ -22,7 +22,6 @@ and functional dashboards.
 
 ```sh
 npm install --msvs_version=2013
-
 gulp
 ```
 
@@ -30,7 +29,6 @@ gulp
 
 ```sh
 npm install -g gulp
-
 npm install -g browserify
 ```
 
