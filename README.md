@@ -3,7 +3,7 @@ Powerful, simple and elegant dashboard framework.
 
 http://pandect.io/
 
-Name: From Latin pandectēs (“book that contains everything”)
+Name: From Latin pandectēs ("book that contains everything")
 
 ## Description:
 
@@ -20,16 +20,16 @@ and functional dashboards.
 
 ## Development:
 
-```sh
-npm install --msvs_version=2013
-gulp
-```
-
 ### Requirements:
 
 ```sh
 npm install -g gulp
-npm install -g browserify
+```
+
+### Installation and running:
+```sh
+npm install --msvs_version=2013
+gulp
 ```
 
 ### Commit Messages:
@@ -39,7 +39,7 @@ npm install -g browserify
 
 ## Credits:
 - Developed by Deepmind AS: http://www.deepmind.no/
-- Components: https://angularjs.org/, https://jquery.org/, http://nodejs.org/, http://expressjs.com/
+- Components: https://angularjs.org/, https://material.angularjs.org/, https://jquery.org/, http://nodejs.org/, http://expressjs.com/
 - gulp-starter: https://github.com/greypants/gulp-starter
 - icon sets: https://github.com/nkoterba/material-design-iconsets
 
