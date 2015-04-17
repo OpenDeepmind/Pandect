@@ -8,6 +8,5 @@ gulp.task('stylus', function () {
 	gulp.src(config.src)
 		.pipe(stylus(config.settings))
 		.pipe(gulp.dest(config.dest))
-		.pipe(browserSync.reload({stream:true}))
-        .pipe(notify({ message: "Styles is now ugly!"}));
+		.pipe(browserSync.reload({stream:true}));
 });

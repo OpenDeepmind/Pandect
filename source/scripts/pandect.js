@@ -31,7 +31,7 @@ require('./controllers');
     ]);
 
 	pandect.value('version', '0.0.1');
-	pandect.value('author', 'Sondre Bjellås');
+	pandect.value('author', 'Deepmind AS');
 	pandect.value('HOST', 'http://localhost:3000');
 
 	pandect.run(['$rootScope', '$http', 'HOST', 

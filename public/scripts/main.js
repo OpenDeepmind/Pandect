@@ -35,7 +35,7 @@ webpackJsonp([0,1],[
 		var pandect = angular.module("pandect", ["ngMaterial", "ngMdIcons", "pandect.filters", "pandect.services", "pandect.directives", "pandect.controllers"]);
 	
 		pandect.value("version", "0.0.1");
-		pandect.value("author", "Sondre Bjellås");
+		pandect.value("author", "Deepmind AS");
 		pandect.value("HOST", "http://localhost:3000");
 	
 		pandect.run(["$rootScope", "$http", "HOST", function ($rootScope, $http, HOST) {}]);
@@ -127,6 +127,71 @@ webpackJsonp([0,1],[
 			$scope.title = "Actions";
 	
 			$scope.tiles = [{ title: "hello world", background: "blue", "span.row": "2", "span.col": "2" }];
+		}]);
+	
+		controllers.controller("WidgetsController", ["$scope", "$rootScope", function ($scope, $rootScope) {
+	
+			$scope.resize = function (item) {
+				console.log("resize", item);
+	
+				if (item.ui.span === 1) {
+					item.ui.span = 2;
+					item.ui.col = 2;
+				} else {
+					item.ui.span = 1;
+					item.ui.col = 1;
+				}
+			};
+	
+			$scope.widgets = [{
+	
+				ui: {
+					span: 2,
+					col: 2
+				},
+	
+				title: "Hello World!"
+			}, {
+	
+				ui: {
+					span: 1,
+					col: 1
+				},
+	
+				title: "Hello World!"
+			}, {
+	
+				ui: {
+					span: 1,
+					col: 1
+				},
+	
+				title: "Hello World!"
+			}, {
+	
+				ui: {
+					span: 1,
+					col: 1
+				},
+	
+				title: "Hello World!"
+			}, {
+	
+				ui: {
+					span: 1,
+					col: 1
+				},
+	
+				title: "Hello World!"
+			}, {
+	
+				ui: {
+					span: 1,
+					col: 1
+				},
+	
+				title: "Hello World!"
+			}];
 		}]);
 	})();
 
