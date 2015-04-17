@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node server",
+    "start": "node server/server.js",
     "test": "gulp build:production",
     "dev": "gulp"
   },
